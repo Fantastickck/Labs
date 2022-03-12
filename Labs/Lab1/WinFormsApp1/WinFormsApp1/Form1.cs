@@ -16,8 +16,6 @@ namespace WinFormsApp1
             chbox2.Text = "ДА";
             chbox1.Location = new Point(30, 30);
             chbox2.Location = new Point(30, 60);
-            groupBox1.Controls.Add(chbox1);
-            groupBox1.Controls.Add(chbox2);
             pictureBox1.Image = Image.FromFile("C:\\Users\\artem\\Desktop\\ПАПКА\\Yep\\Labs\\Lab1\\image.jpg");
             
             
@@ -31,10 +29,13 @@ namespace WinFormsApp1
         private void button1_Click(object? sender, EventArgs e)
         {
             label5.Text = "Свойства и методы элемента Button \n" +
-                    "1. Name - имя элемента, по которому можно обращаться в коде \n" +
-                    "2. Text - Текст на кнопке \n" +
-                    "3. Width - ширина \n" +
-                    "...";
+                    "Name - имя элемента, по которому можно обращаться в коде \n" +
+                    "Text - Текст на кнопке \n" +
+                    "Width - ширина \n" +
+                    "Margin Возвращает или задает расстояние между элементами управления. \n" +
+                    "... \n" +
+                    "Focus() Устанавливает фокус ввода на элемент управления. \n";
+                    
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -100,20 +101,11 @@ namespace WinFormsApp1
 
         private void maskedTextBox1_MaskInputRejected_1(object sender, MaskInputRejectedEventArgs e)
         {
-            if (maskedTextBox1.Text == "MaskedTextBox")
-            {
-                label5.Text = "Свойства и методы элемента MaskedTextBox";
-            }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             label5.Text = "Свойства и методы элемента CheckBox";
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-            
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
@@ -123,11 +115,6 @@ namespace WinFormsApp1
                 label7.Text = "Свойства и методы NumericUpDown";
             }
             else { label7.Text = "Свойства и методы элементов управления"; }
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void tabPage3_Click(object sender, EventArgs e)
@@ -149,6 +136,29 @@ namespace WinFormsApp1
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             label8.Text = "PictureBox";
+        }
+
+        private void maskedTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (maskedTextBox1.Text == "MaskedTextBox")
+            {
+                label5.Text = "Свойства и методы элемента MaskedTextBox";
+            }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            label5.Text = "RadioButton";
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            label5.Text = "Нажмите ДА";
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            label5.Text = "MenuStrip";
         }
     }
 }
