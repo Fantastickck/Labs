@@ -85,7 +85,7 @@
             this.Tap.Location = new System.Drawing.Point(12, 34);
             this.Tap.Name = "Tap";
             this.Tap.SelectedIndex = 0;
-            this.Tap.Size = new System.Drawing.Size(776, 404);
+            this.Tap.Size = new System.Drawing.Size(781, 404);
             this.Tap.TabIndex = 6;
             // 
             // tabPage1
@@ -101,7 +101,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(768, 371);
+            this.tabPage1.Size = new System.Drawing.Size(773, 371);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Элементы №1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -208,7 +208,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(768, 371);
+            this.tabPage2.Size = new System.Drawing.Size(1053, 371);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Элементы №2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -244,7 +244,7 @@
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(768, 371);
+            this.tabPage3.Size = new System.Drawing.Size(1053, 371);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Открыть новую форму";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -266,7 +266,7 @@
             this.tabPage4.Controls.Add(this.pictureBox1);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(768, 371);
+            this.tabPage4.Size = new System.Drawing.Size(1053, 371);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "PictrueBox";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -295,7 +295,7 @@
             this.menuStripToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(807, 28);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -312,13 +312,13 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(100, 26);
             this.toolStripMenuItem2.Text = "1";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(100, 26);
             this.toolStripMenuItem3.Text = "2";
             // 
             // toolStripMenuItem4
@@ -326,7 +326,7 @@
             this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem5});
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(100, 26);
             this.toolStripMenuItem4.Text = "3";
             // 
             // toolStripMenuItem5
@@ -340,7 +340,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(807, 450);
             this.Controls.Add(this.Tap);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
