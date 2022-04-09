@@ -21,5 +21,14 @@ namespace WinFormsApp1
         {
             Close();
         }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8 && number != 43 && number !=45) // цифры, клавиша BackSpace и запятая
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

@@ -63,5 +63,10 @@ namespace WinFormsApp1
             Degree newForm = new Degree();
             newForm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             dataGridView1.Rows.Add("Первый дом", "999-999-999", "Первый адрес");
+            dataGridView1.Rows.Add("Второй дом", "888-888-888", "Второй адрес");
         }
 
         private void button_Click(object sender, EventArgs e)
