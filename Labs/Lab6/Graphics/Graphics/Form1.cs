@@ -46,9 +46,28 @@ namespace Graphics
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            left_x = Convert.ToInt32(textBox1.Text);
-            right_x = Convert.ToInt32(textBox2.Text);
+            if (comboBox1.SelectedIndex == -1)
+            {
+                MessageBox.Show("Выберите график");
+            }
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Вы не ввели начало отрезка");
+            }
+            else
+            { 
+                try { left_x = Convert.ToInt32(textBox1.Text); }
+                catch { MessageBox.Show("Введите число а не букву!"); }
+            }
+            if (textBox2.Text == "")
+            {
+                MessageBox.Show("Вы не ввели конец отрезка");
+            }
+            else
+            {
+                try { right_x = Convert.ToInt32(textBox2.Text); }
+                catch { MessageBox.Show("Введите число а не букву!"); }
+            }
             x = left_x;
             h = 0.1;
             if (textBox3.Text != "")
@@ -73,7 +92,7 @@ namespace Graphics
 
             this.chart.Series[0].Points.Clear();
             while (x <= right_x)
-            {   
+            {
                 if (comboBox1.SelectedIndex == 0)
                 {
                     y = x * a + b;
