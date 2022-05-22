@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AddDegree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddTypeOfPub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Degree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddPub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PlacesOfWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddPlaceOfWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PubHouses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddPubHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TypeOfPub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateDegree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdatePlaceOfWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdatePub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdatePubHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateTypeOfPub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
